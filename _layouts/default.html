@@ -5,10 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ site.title }} - {{ site.description }}</title>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
     <link rel="stylesheet" href="./assets/css/main.css">
   </head>
   <body>
-
+  <nav class="navbar is-light">
+    <div class="navbar-brand">
+      <a class="navbar-item is-size-5" href="http://openmathbooks.org/">
+        <img src="./assets/images/logo.svg" height="30"/>
+        <!-- \(\mathbb{O}\)pen  \(\mathbb{M}\)ath  \(\mathbb{B}\)ooks -->
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start">
+      </div>
+      <div class="navbar-end">
+        <a class="navbar-item" href="http://openmathbooks.org/catalog.html">
+          Catalog
+        </a>
+        <a class="navbar-item" href="http://openmathbooks.org/about.html">
+          About
+        </a>
+        <a class="navbar-item" href="http://openmathbooks.org/resources.html">
+          Open Textbooks Resources
+        </a>
+      </div>
+</div>
+  </nav>
     <section class="hero is-dark is-bold">
       <div class="hero-body">
         <div class="container">
