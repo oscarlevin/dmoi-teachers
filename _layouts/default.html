@@ -44,8 +44,13 @@
             {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
           </h1>
           {% if page.subtitle %}
-            <h2 class="subtitle is-3">
+            <h2 class="subtitle is-4">
               {{ page.subtitle }}
+            </h2>
+          {% endif %}
+          {% if page.author %}
+            <h2 class="subtitle is-3">
+              by {{ page.author }}
             </h2>
           {% endif %}
         </div>
